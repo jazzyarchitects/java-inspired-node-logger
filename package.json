@@ -11,6 +11,9 @@
     "android-logger",
     "logger",
     "android",
+    "node",
+    "log",
+    "logcat",
     "java",
     "jibinmathews7"
   ],
