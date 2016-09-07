@@ -11,7 +11,7 @@ newLog.w("Tag", "This should be new warn");
 newLog.i("Tag", "This should be new info");
 newLog.d("Tag", "This should be new debug");
 
-console.log("\n\n......................................................................\n\n")
+// Log.hr();
 
 var Log = require('..');
 
@@ -23,10 +23,10 @@ Log.w("This is warning");
 Log.i("This is info");
 Log.d("This is debug");
 
+Log.hr();
 
-console.log("\n\n......................................................................\n\n");
 var Log2 = require('..');
-var Log2 = new Log2.Logger({'defaultTag': "Jibin"});
+var Log2 = new Log2.Logger({'defaultTag': "Jibin", "hrChar": "*", "projectName": "MyTestAPp", "tagBold": true,"showProjectName":false});
 // Log2.config();
 
 Log2.e("This is error");
@@ -37,4 +37,4 @@ Log2.d("This is debug");
 Log2.d("blue", "", "This is debug");
 
 
-Log.hr();
+Log2.hr(15, true, "green", "", "=");
