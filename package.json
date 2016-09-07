@@ -6,10 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": ["jlogger", "android-logger", "logger", "android", "java", "jibinmathews7"],
   "author": "Jibin Mathews <jibinmathews7@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "colors": "1.1.2",
     "moment": "2.14.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jazzyarchitects/java-inspired-node-logger.git"
+  },
 }
