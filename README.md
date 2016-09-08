@@ -48,7 +48,7 @@ Log.e("Msg with default TAG");
 Log.setGlobalConfig({
   "defaultTag": "<your default tag name>",  //Default tag for when tag is not specified
   "tagBold": <true/false>,  //If true then tags will be in bold,
-  "colCount": <length of hr>,   //Default length of horizontal line. If not specified then it fits to terminal size
+  "hrLength": <length of hr>,   //Default length of horizontal line. If not specified then it fits to terminal size
   "hrChar": "=",  //Draw horizontal line with specified character. Default is "-"
   "adaptScreenSize": <true/false>, //If true then hr width will fit the current terminal size
   "projectName": "<your project name>",  //Display this in your log

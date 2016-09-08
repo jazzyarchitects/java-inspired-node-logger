@@ -31,7 +31,7 @@ var Log2 = new Log2.Logger({'defaultTag': "Jibin", "hrChar": "*", "projectName":
 
 Log2.e("This is error");
 Log2.w("This is warning");
-Log2.i("This is info");
+Log2.i("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis sem ligula. Donec nec consectetur risus, in finibus arcu. Suspendisse in placerat lacus, ac condimentum purus. Praesent vestibulum dapibus tempor. Nam ipsum diam, semper ut massa ac, congue iaculis nisi. Aenean sed dignissim sem, eget viverra nibh. Vivamus consectetur faucibus ante vitae molestie. Integer blandit convallis erat et facilisis. Aliquam turpis sem, euismo odio id semper ultrices, felis neque malesuada lacus, nec porta nunc nulla iaculis purus.");
 Log2.d("This is debug");
 
 Log2.d("blue", "", "This is debug");
