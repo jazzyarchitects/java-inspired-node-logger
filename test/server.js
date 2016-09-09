@@ -29,8 +29,8 @@ Log.hr();
 var Log2 = require('..');
 var Log2 = new Log2.Logger({'defaultTag': "Jibin", "hrChar": "*", "projectName": "MyTestAPp", "tagBold": true,"showProjectName":false});
 
-// Log2.d("blue", "Logger Config", JSON.stringify({'defaultTag': "Jibin", "hrChar": "*", "projectName": "MyTestAPp", "tagBold": true,"showProjectName":false}));
-Log2.d("blue", "Logger Config", "{\"defaultTag\":\"Jibin\",\"hrChar\":\"*\",\"projectName\":\"MyTestAPp\",\"tagBold\":true,\"showProjectName\":false}");
+Log2.d("blue", "Logger Config", {'defaultTag': "Jibin", "hrChar": "*", "projectName": "MyTestAPp", "tagBold": true,"showProjectName":false});
+// Log2.d("blue", "Logger Config", {"defaultTag\":\"Jibin\",\"hrChar\":\"*\",\"projectName\":\"MyTestAPp\",\"tagBold\":true,\"showProjectName\":false}");
 
 // Log2.config();
 
