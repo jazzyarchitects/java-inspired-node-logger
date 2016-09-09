@@ -4,8 +4,8 @@
 [![NPM Downloads](https://img.shields.io/npm/dt/jlogger.svg)](https://www.npmjs.com/package/jlogger)
 [![NPM Downloads](https://img.shields.io/npm/dm/jlogger.svg)](https://www.npmjs.com/package/jlogger)
 
-###Installation  
-***
+##Installation  
+
 ```
 $ npm install --save jlogger
 ```
@@ -18,7 +18,7 @@ The display is as
 <img src="https://github.com/jazzyarchitects/java-inspired-node-logger/blob/master/images/shell.png" />
 
 ##Usage
-***
+
 ```
 var Log = require('jlogger');
 
@@ -55,8 +55,8 @@ Log.e("Msg with default TAG");
 
 ```
 
-### Available customisations are:
-***
+## Available customisations
+
 ```
 Log.setGlobalConfig({
   "defaultTag": "<your default tag name>",  //Default tag for when tag is not specified
@@ -72,7 +72,7 @@ Log.setGlobalConfig({
 
 
 ### Using Log.hr()
-***
+
 ```
 Log.hr(length, showTimestamp, color, tag, char);
 ```
@@ -96,7 +96,7 @@ or
 Log.d("blue", TAG, obj);
 ```
 
-***
+
 ##Release Notes  
 1. Release 1.2.0  
     * Added JSON formatting
