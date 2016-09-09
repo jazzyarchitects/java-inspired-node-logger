@@ -1,15 +1,16 @@
 # Android Log Cat Inspired Logger for NodeJS
 
-This is still under active development.
+A simple logger x
 
 ##Usage
 
 ```
 var Log = require('jlogger');
 
-Log.addGlobalConfig("projectName", "<your project name>"); //Usage under development
+<!-- Log.addGlobalConfig("projectName", "<your project name>"); //Usage under development
 Log.addGlobalConfig("projectRoot", "<your project root>"); //Usage under development
-Log.addGlobalConfig("defaultTag", "defaultTag");  //Default tag for every log
+ -->
+ Log.addGlobalConfig("defaultTag", "defaultTag");  //Default tag for every log
 
 var TAG = "some TAG";
 
