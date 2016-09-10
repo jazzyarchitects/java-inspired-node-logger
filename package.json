@@ -1,6 +1,6 @@
 {
   "name": "jlogger",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A simple logger inspired by Android LogCat for NodeJS.",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "java",
     "jibinmathews7"
   ],
-  "bugs":{
+  "bugs": {
     "url": "https://github.com/jazzyarchitects/java-inspired-node-logger/issues",
     "email": "jibinmathews7@gmail.com"
   },
