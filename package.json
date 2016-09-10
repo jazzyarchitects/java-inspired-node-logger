@@ -1,7 +1,7 @@
 {
   "name": "jlogger",
   "version": "1.2.0",
-  "description": "",
+  "description": "A simple logger inspired by Android LogCat for NodeJS.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,6 +17,10 @@
     "java",
     "jibinmathews7"
   ],
+  "bugs":{
+    "url": "https://github.com/jazzyarchitects/java-inspired-node-logger/issues",
+    "email": "jibinmathews7@gmail.com"
+  },
   "author": "Jibin Mathews <jibinmathews7@gmail.com>",
   "license": "ISC",
   "dependencies": {
