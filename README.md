@@ -2,7 +2,9 @@
 [![Latest Stable Version](https://img.shields.io/npm/v/jlogger.svg)](https://www.npmjs.com/package/jlogger)
 [![License](https://img.shields.io/npm/l/jlogger.svg)](https://www.npmjs.com/package/jlogger)
 [![NPM Downloads](https://img.shields.io/npm/dt/jlogger.svg)](https://www.npmjs.com/package/jlogger)
-[![NPM Downloads](https://img.shields.io/npm/dm/jlogger.svg)](https://www.npmjs.com/package/jlogger)
+[![NPM Downloads](https://img.shields.io/npm/dm/jlogger.svg)](https://www.npmjs.com/package/jlogger)  
+  
+[![NPM](https://nodei.co/npm/jlogger.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/jlogger/) 
 
 ##Installation  
 
