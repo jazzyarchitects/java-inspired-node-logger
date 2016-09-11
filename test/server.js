@@ -12,7 +12,7 @@ newLog.d("Tag", "Log.d(TAG, msg)");
 
 // // Log.hr();
 
-newLog.hr();
+newLog.section("Log 2", "=|=");
 
 var Log = require('..');
 
