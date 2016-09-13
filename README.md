@@ -110,6 +110,8 @@ Log.d("blue", TAG, obj);
 
 
 ##Release Notes
+1. Release 1.3.0
+    * Added Sectioning
 1. Release 1.2.0
     * Added JSON formatting
     * Text wrapping (Changed from character based wrapping to word based wrapping)
