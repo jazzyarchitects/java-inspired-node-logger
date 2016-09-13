@@ -1,27 +1,27 @@
-# Android Log Cat Inspired Logger for NodeJS  
+# Android Log Cat Inspired Logger for NodeJS
 [![Latest Stable Version](https://img.shields.io/npm/v/jlogger.svg)](https://www.npmjs.com/package/jlogger)
 [![License](https://img.shields.io/npm/l/jlogger.svg)](https://www.npmjs.com/package/jlogger)
 [![NPM Downloads](https://img.shields.io/npm/dt/jlogger.svg)](https://www.npmjs.com/package/jlogger)
-[![NPM Downloads](https://img.shields.io/npm/dm/jlogger.svg)](https://www.npmjs.com/package/jlogger)  
-  
-[![NPM](https://nodei.co/npm/jlogger.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/jlogger/) 
+[![NPM Downloads](https://img.shields.io/npm/dm/jlogger.svg)](https://www.npmjs.com/package/jlogger)
 
-##Installation  
+[![NPM](https://nodei.co/npm/jlogger.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/jlogger/)
+
+##Installation
 
 ```
 $ npm install --save jlogger
 ```
 
-A simple logger inspired by Android LogCat for NodeJS.  
-This logger provides functions like *_Log.e(), Log.w(), Log.i()_* and *_Log.d()_* as in Android App Development.  
-The display is as 
+A simple logger inspired by Android LogCat for NodeJS.
+This logger provides functions like *_Log.e(), Log.w(), Log.i()_* and *_Log.d()_* as in Android App Development.
+The display is as
 
-<a href="https://github.com/jazzyarchitects/java-inspired-node-logger/blob/master/test/server.js" target="_blank">Source code for screenshot </a>  
+<a href="https://github.com/jazzyarchitects/java-inspired-node-logger/blob/master/test/server.js" target="_blank">Source code for screenshot </a>
 <img src="https://github.com/jazzyarchitects/java-inspired-node-logger/blob/master/images/shell.png" />
 
 ##Usage
 
-```
+```js
 var Log = require('jlogger');
 
 Log.addGlobalConfig("defaultTag", "defaultTag");  //Default tag for every log
@@ -47,7 +47,7 @@ Log.hr(length);  //Draw a dashed horizontal line. Default length is that of the 
 
 If you want a new instance of the Logger, having different properties from global config use:
 
-```
+```js
 var Log = require('jlogger');
 var Log2 = new Log.Logger({"defaultTag": "another default tag"});
 
@@ -59,7 +59,7 @@ Log.e("Msg with default TAG");
 
 ## Available customisations
 
-```
+```js
 Log.setGlobalConfig({
   "defaultTag": "<your default tag name>",  //Default tag for when tag is not specified
   "tagBold": <true/false>,  //If true then tags will be in bold,
@@ -75,19 +75,29 @@ Log.setGlobalConfig({
 
 ### Using Log.hr()
 
-```
+```js
 Log.hr(length, showTimestamp, color, tag, char);
 ```
 
-*_length_*: *Number*        Number of characters to draw. Default is set by global Config  
-*_showTimeStamp_*:  *true/false*      Whether to show timestamp. Default is false  
-*_color_*: *color name*     Color for the horizontal line  
-*_tag_*: *tag*     tag for hr  
-*_char_*: *"="*     String with which the hr is to be drawn. (tag parameter should be present, atleast an empty placeholder)  
+*_length_*: *Number*        Number of characters to draw. Default is set by global Config
+*_showTimeStamp_*:  *true/false*      Whether to show timestamp. Default is false
+*_color_*: *color name*     Color for the horizontal line
+*_tag_*: *tag*     tag for hr
+*_char_*: *"="*     String with which the hr is to be drawn. (tag parameter should be present, atleast an empty placeholder)
 
-###JSON formatting  
-No need to stringify the json to display. The module displays it with correct indentation.
+###Sections
+You can create a section in your terminal by using Log.section().
+
+```js
+//color : The color of section divider. Default is blue
+//msg: message to be inserted in center of line
+//char: character to draw section divider with
+Log.section(color, msg, char);
 ```
+
+###JSON formatting
+No need to stringify the json to display. The module displays it with correct indentation.
+```js
 var obj = {
    name: "Jibin Mathews",
    email: "jibinmathews7@gmail.com"
@@ -99,8 +109,8 @@ Log.d("blue", TAG, obj);
 ```
 
 
-##Release Notes  
-1. Release 1.2.0  
+##Release Notes
+1. Release 1.2.0
     * Added JSON formatting
     * Text wrapping (Changed from character based wrapping to word based wrapping)
     * Bug fix with setting config
