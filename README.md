@@ -79,11 +79,11 @@ Log.setGlobalConfig({
 Log.hr(length, showTimestamp, color, tag, char);
 ```
 
-**length**: *Number*        Number of characters to draw. Default is set by global Config
-**showTimeStamp**:  *true/false*      Whether to show timestamp. Default is false
-**color**: *color name*     Color for the horizontal line
-**tag**: *tag*     tag for hr
-**char**: *"="*     String with which the hr is to be drawn. (tag parameter should be present, atleast an empty placeholder)
+***length***: *Number*        Number of characters to draw. Default is set by global Config  
+***showTimeStamp***:  *true/false*      Whether to show timestamp. Default is false  
+***color***: *color name*     Color for the horizontal line  
+***tag***: *tag*     tag for hr  
+***char***: *"="*     String with which the hr is to be drawn. (tag parameter should be present, atleast an empty placeholder)  
 
 ###Sections
 You can create a section in your terminal by using Log.section().
