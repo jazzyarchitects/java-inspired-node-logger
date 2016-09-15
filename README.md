@@ -13,11 +13,11 @@ $ npm install --save jlogger
 ```
 
 A simple logger inspired by Android LogCat for NodeJS.
-This logger provides functions like *_Log.e(), Log.w(), Log.i()_* and *_Log.d()_* as in Android App Development.
+This logger provides functions like **Log.e(), Log.w(), Log.i()** and **Log.d()** as in Android App Development.
 The display is as
 
 <a href="https://github.com/jazzyarchitects/java-inspired-node-logger/blob/master/test/server.js" target="_blank">Source code for screenshot </a>
-<img src="https://github.com/jazzyarchitects/java-inspired-node-logger/blob/master/images/shell.png" />
+![Screenshot](https://github.com/jazzyarchitects/java-inspired-node-logger/blob/master/images/shell.png)
 
 ##Usage
 
@@ -79,11 +79,11 @@ Log.setGlobalConfig({
 Log.hr(length, showTimestamp, color, tag, char);
 ```
 
-*_length_*: *Number*        Number of characters to draw. Default is set by global Config
-*_showTimeStamp_*:  *true/false*      Whether to show timestamp. Default is false
-*_color_*: *color name*     Color for the horizontal line
-*_tag_*: *tag*     tag for hr
-*_char_*: *"="*     String with which the hr is to be drawn. (tag parameter should be present, atleast an empty placeholder)
+**length**: *Number*        Number of characters to draw. Default is set by global Config
+**showTimeStamp**:  *true/false*      Whether to show timestamp. Default is false
+**color**: *color name*     Color for the horizontal line
+**tag**: *tag*     tag for hr
+**char**: *"="*     String with which the hr is to be drawn. (tag parameter should be present, atleast an empty placeholder)
 
 ###Sections
 You can create a section in your terminal by using Log.section().
